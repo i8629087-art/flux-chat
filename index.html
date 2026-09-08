@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Экран авторизации -->
     <div id="authScreen" class="screen">
         <div class="auth-container">
             <h2>🔥 Flux Chat</h2>
@@ -19,9 +18,7 @@
         </div>
     </div>
 
-    <!-- Основной интерфейс -->
     <div id="mainScreen" class="screen" style="display:none">
-        <!-- Шапка -->
         <div class="header">
             <div class="user-info">
                 <img id="userAvatar" src="" alt="Аватар">
@@ -34,12 +31,10 @@
             </div>
         </div>
 
-        <!-- Список чатов -->
         <div class="sidebar">
             <div class="chats-list" id="chatsList"></div>
         </div>
 
-        <!-- Чат -->
         <div class="chat-area">
             <div class="chat-header">
                 <span id="currentChatName"></span>
@@ -52,7 +47,6 @@
         </div>
     </div>
 
-    <!-- Админ панель -->
     <div id="adminPanel" class="modal" style="display:none">
         <div class="modal-content">
             <h3>👑 Админ панель</h3>
@@ -65,11 +59,9 @@
         </div>
     </div>
 
-    <!-- Firebase SDK -->
     <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-app-compat.js"></script>
     <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-database-compat.js"></script>
-    
-    <!-- Основной скрипт -->
+
     <script src="app.js"></script>
 </body>
 </html>
